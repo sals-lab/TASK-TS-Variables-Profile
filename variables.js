@@ -11,20 +11,15 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
-
-
-
 /**
  * Part 2: String Interpolation
  * Create the following new variables that interpolate
  * the variables defined above into strings.
  *
- * 1. fullNameString      -> assign it to: My name is {fullName}
- * 2. yearOfBirthString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
- * 3. hobbyString         -> assign it to: My hobby is {YOUR_HOBBY}
- * 
+ * 1. fullNameString      -> assign it to: "My name is {fullName}""
+ * 2. yearOfBirthString   -> assign it to: "I am {YOUR_AGE}"", and make sure you calculate your age from your year of birth
+ * 3. hobbyString         -> assign it to: "My hobby is {YOUR_HOBBY}""
+ *
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
@@ -32,9 +27,6 @@
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
 // const hobbyString =
-
-
-
 
 /**
  * Part 3: Re-assignment
@@ -56,3 +48,13 @@ function incrementBy2() {
 function decrementBy2() {
   // decrement stars by 2 👇🏻
 }
+
+// TODO: Uncomment these variables as you work on them
+// Make sure they're all uncommented before you push your solution!
+module.exports = {
+  // fullName,
+  // yearOfBirth,
+  // hobby,
+  // funFact,
+  // image,
+};
