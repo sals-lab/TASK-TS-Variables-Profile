@@ -10,7 +10,6 @@
  */
 
 // Part 1 answer 👇🏻 ...
-const fullName = "Aziz Alsaffar"
 
 /**
  * Part 2: String Interpolation
