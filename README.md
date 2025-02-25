@@ -1,10 +1,10 @@
-# JS-Variables
+# TS-Variables
 
 ## Instructions
 
-- Fork and clone [this repository](https://github.com/JoinCODED/TASK-JS-Variables-Profile-no-dom) to your `Development` folder.
+- Fork and clone [this repository](https://github.com/JoinCODED/TASK-TS-Variables-Profile) to your `Development` folder.
   - ```bash
-    git clone git@github.com:<your_username>/TASK-JS-Variables-Profile-no-dom.git
+    git clone git@github.com:<your_username>/TASK-TS-Variables-Profile.git
     ```
 
 ### Running The Tests
