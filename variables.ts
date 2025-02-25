@@ -9,7 +9,11 @@
  * 5. image         -> assign it a value of a url of your image or ant image that represents you online
  */
 
-// Part 1 answer 👇🏻 ...
+let fullName: string;
+let yearOfBirth: number;
+let hobby: string;
+let funFact: string;
+let image: string;
 
 /**
  * Part 2: String Interpolation
@@ -19,14 +23,11 @@
  * 1. fullNameString      -> assign it to: "My name is {fullName}""
  * 2. ageString   -> assign it to: "I am {YOUR_AGE}"", and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it to: "My hobby is {YOUR_HOBBY}""
- *
- * Uncomment the following lines and start interpolating.
- * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const ageString =
-// const hobbyString =
+let fullNameString: string;
+let ageString: string;
+let hobbyString: string;
 
 /**
  * Part 3: Re-assignment
@@ -51,15 +52,15 @@ function decrementBy2() {
 
 // TODO: Uncomment these variables as you work on them
 // Make sure they're all uncommented before you push your solution!
-module.exports = {
-  // fullName,
-  // yearOfBirth,
-  // hobby,
-  // funFact,
-  // image,
-  // fullNameString,
-  // ageString,
-  // hobbyString,
+export {
+  fullName,
+  yearOfBirth,
+  hobby,
+  funFact,
+  image,
+  fullNameString,
+  ageString,
+  hobbyString,
   incrementBy1,
   incrementBy2,
   decrementBy1,

@@ -1,43 +1,44 @@
 const { faker } = require("@faker-js/faker");
 
-const {
-  fullName,
-  yearOfBirth,
-  hobby,
-  funFact,
-  image,
-  fullNameString,
+import {
   ageString,
-  hobbyString,
-  incrementBy1,
-  incrementBy2,
   decrementBy1,
   decrementBy2,
-} = require("./variables");
+  fullName,
+  fullNameString,
+  funFact,
+  hobby,
+  hobbyString,
+  image,
+  incrementBy1,
+  incrementBy2,
+  yearOfBirth,
+} from "./variables";
 
 describe("Variables 🍋", () => {
-  const variables = {
-    fullName: {
-      type: "string",
-      value: fullName,
-    },
-    yearOfBirth: {
-      type: "number",
-      value: yearOfBirth,
-    },
-    hobby: {
-      type: "string",
-      value: hobby,
-    },
-    funFact: {
-      type: "string",
-      value: funFact,
-    },
-    image: {
-      type: "string",
-      value: image,
-    },
-  };
+  const variables: { [key: string]: { type: string; value: string | number } } =
+    {
+      fullName: {
+        type: "string",
+        value: fullName,
+      },
+      yearOfBirth: {
+        type: "number",
+        value: yearOfBirth,
+      },
+      hobby: {
+        type: "string",
+        value: hobby,
+      },
+      funFact: {
+        type: "string",
+        value: funFact,
+      },
+      image: {
+        type: "string",
+        value: image,
+      },
+    };
 
   for (const variable in variables) {
     const { type, value } = variables[variable];
@@ -54,7 +55,7 @@ describe("Variables 🍋", () => {
 });
 
 describe("String Interpolation 🤼‍♀️", () => {
-  const variables = {
+  const variables: { [key: string]: { value: string; expectation: string } } = {
     fullNameString: {
       value: fullNameString,
       expectation: `My name is ${fullName}`,
