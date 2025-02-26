@@ -32,6 +32,14 @@ jobs:
           name: junit-report
           path: reports/junit/junit.xml
 
+      - name: Publish Test Report
+        uses: dorny/test-reporter@v1
+        if: always()
+        with:
+          name: "Test Report"
+          path: reports/junit/junit.xml
+          reporter: "junit"
+
       - name: update Airtable
         if: always()
         run: node ./.scripts/main.js TS ${{github.actor}} https://github.com/${{github.repository}}
