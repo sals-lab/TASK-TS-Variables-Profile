@@ -28,17 +28,18 @@ jobs:
 
       - name: Upload Test Report
         uses: actions/upload-artifact@v4
+        if: success() || failure()
         with:
           name: junit-report
           path: reports/junit/junit.xml
 
       - name: Publish Test Report
         uses: dorny/test-reporter@v1
-        if: always()
+        if: success() || failure()
         with:
-          name: "Test Report"
-          path: reports/junit/junit.xml
-          reporter: "junit"
+          name: JEST Tests # Name of the check run which will be created
+          path: reports/junit/junit.xml # Path to test results
+          reporter: jest-junit # Format of test results
 
       - name: update Airtable
         if: always()
