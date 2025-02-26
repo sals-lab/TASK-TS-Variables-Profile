@@ -20,13 +20,6 @@
       ]
     ]
   },
-  "jest-junit": {
-    "ancestorSeparator": " › ",
-    "uniqueOutputName": "false",
-    "suiteNameTemplate": "{filepath}",
-    "classNameTemplate": "{classname}",
-    "titleTemplate": "{title}"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
