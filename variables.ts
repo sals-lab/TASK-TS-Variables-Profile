@@ -20,9 +20,9 @@ let image: string;
  * Create the following new variables that interpolate
  * the variables defined above into strings.
  *
- * 1. fullNameString      -> assign it to: "My name is {fullName}""
- * 2. ageString   -> assign it to: "I am {YOUR_AGE}"", and make sure you calculate your age from your year of birth
- * 3. hobbyString         -> assign it to: "My hobby is {YOUR_HOBBY}""
+ * 1. fullNameString      -> assign it: "My name is {fullName}""
+ * 2. ageString           -> assign it: "I am {YOUR_AGE}"", and make sure you calculate your age from your year of birth
+ * 3. hobbyString         -> assign it: "My hobby is {YOUR_HOBBY}""
  */
 
 let fullNameString: string;
@@ -34,24 +34,23 @@ let hobbyString: string;
  * Increment your hacker score
  * */
 
-let stars = 0;
+let hackerScore = 0;
 
 function incrementBy1() {
-  // Increment stars by 1 👇🏻
+  // Increment hackerScore by 1 👇🏻
 }
 function decrementBy1() {
-  // decrement stars by 1 👇🏻
+  // decrement hackerScore by 1 👇🏻
 }
 
 function incrementBy2() {
-  // Increment stars by 2 👇🏻
+  // Increment hackerScore by 2 👇🏻
 }
 function decrementBy2() {
-  // decrement stars by 2 👇🏻
+  // decrement hackerScore by 2 👇🏻
 }
 
-// TODO: Uncomment these variables as you work on them
-// Make sure they're all uncommented before you push your solution!
+// Ignore this part (:
 export {
   fullName,
   yearOfBirth,
