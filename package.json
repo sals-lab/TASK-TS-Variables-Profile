@@ -1,5 +1,5 @@
 {
-  "name": "task-ts-variables-profile",
+  "name": "task-ts-objects-iteration-part1",
   "version": "1.0.0",
   "main": "vairables.ts",
   "scripts": {
@@ -21,6 +21,15 @@
     ]
   },
   "keywords": [],
+  "jest-junit": {
+    "outputDirectory": "reports/junit",
+    "outputName": "junit.xml",
+    "ancestorSeparator": " › ",
+    "uniqueOutputName": "false",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}",
+    "addFileAttribute": "true"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
